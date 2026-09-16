@@ -154,9 +154,22 @@ ul {
     padding: 4px;
 }
 
-iframe {
-    margin: auto;
-    width: 100%;
+div.video {
+    background-color: #063d1e;
+    border-radius: 0px;
+    margin: 0px -10px 30px -10px;
+    padding-bottom: 20%;
+    padding: 30%;
+
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 footer {
